@@ -4,22 +4,36 @@
 
   <groupId>cn.pan</groupId>
   <artifactId>Retrier</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>${revision}</version>
   <packaging>jar</packaging>
 
   <name>Retrier</name>
-  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <starter-bom-version>1.0.2</starter-bom-version>
+    <lombok-version>1.18.0</lombok-version>
+    <google-guava-version>28.1-jre</google-guava-version>
+    <base-dependencies-version>1.0.2</base-dependencies-version>
+    <spring-context-support-version>4.3.18.RELEASE</spring-context-support-version>
+    <spring.version>4.3.18.RELEASE</spring.version>
+    <spring.boot.version>1.5.14.RELEASE</spring.boot.version>
+    <fury.version>0.3.0</fury.version>
+
+    <revision>1.0.0</revision>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
+
 </project>
