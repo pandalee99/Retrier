@@ -25,9 +25,15 @@ public class Compensate implements Serializable {
      */
     private CompensateStatus compensateStatus;
 
-    /*
-    xxxx
+    /**
+     * 补偿方法信息（这个字段会持久化）
      */
+    private InvocationContext compensateContext;
+
+    /**
+     * 当前方法信息（这个字段不会持久化）
+     */
+    private InvocationContext currentInvocationContext;
 
     /**
      * 重试次数

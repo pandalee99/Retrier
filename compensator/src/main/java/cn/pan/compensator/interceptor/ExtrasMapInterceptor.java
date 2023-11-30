@@ -1,6 +1,7 @@
 package cn.pan.compensator.interceptor;
 
 import cn.pan.compensator.context.CompensateContext;
+import cn.pan.compensator.pojo.ExtrasMap;
 
 public interface ExtrasMapInterceptor extends CompensateInterceptor{
 
