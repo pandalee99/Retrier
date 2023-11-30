@@ -1,5 +1,7 @@
 package cn.pan.compensator.interceptor;
 
+import cn.pan.compensator.context.CompensateContext;
+
 public interface CompensateInterceptor {
 
     /**
